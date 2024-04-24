@@ -1,0 +1,62 @@
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery .box1,
+.gallery .box2,
+.gallery .box3,
+.gallery .box4 {
+    display: inline-block;
+    width: 22%;
+    margin: 1%;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 500px) {
+    .gallery .box1,
+    .gallery .box2,
+    .gallery .box3,
+    .gallery .box4  {
+         width: 45%;
+}
+
+}
+
+@media only screen and (max-width: 480px) {
+    .gallery .box1,
+    .gallery .box2,
+    .gallery .box3,
+    .gallery .box4 {
+        width: 90%;
+        margin: 5% auto;
+    }
+}
